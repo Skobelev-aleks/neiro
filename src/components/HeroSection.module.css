@@ -1,1 +1,68 @@
+.hero {
+  padding: 80px 24px;
+  background: linear-gradient(135deg, #f0f4ff, #ffffff);
+  text-align: center;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 16px;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 32px;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.primaryBtn,
+.secondaryBtn {
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.primaryBtn {
+  background-color: #0070f3;
+  color: white;
+}
+
+.primaryBtn:hover {
+  background-color: #005bd1;
+}
+
+.secondaryBtn {
+  background-color: #eaeaea;
+  color: #111;
+}
+
+.secondaryBtn:hover {
+  background-color: #d4d4d4;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 32px;
+  }
+
+  .subtitle {
+    font-size: 16px;
+  }
+}
 /* CSS hero section */
