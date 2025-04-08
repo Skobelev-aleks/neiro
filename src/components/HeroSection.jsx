@@ -1,0 +1,1 @@
+/* JSX hero section */
