@@ -1,1 +1,81 @@
+.pricing {
+  padding: 80px 24px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.heading {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 48px;
+  color: #111;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+
+.card {
+  flex: 1 1 280px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  padding: 32px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.card h3 {
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: 600;
+  color: #0070f3;
+  margin-bottom: 24px;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px;
+  text-align: left;
+}
+
+.card li {
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.btn {
+  background-color: #0070f3;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #005bd1;
+}
+
+.pro {
+  background-color: #eef5ff;
+}
 /* CSS pricing section */
