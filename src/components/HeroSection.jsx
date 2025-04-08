@@ -16,4 +16,3 @@ export default function HeroSection() {
     </section>
   );
 }
-/* JSX hero section */
